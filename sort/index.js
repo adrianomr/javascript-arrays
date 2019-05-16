@@ -2,7 +2,7 @@ const initArr = [{0: {v: 'teste'}, 1: {v: 'teste'}},{0: {v: 'teste3'}, 1: {v: 't
 var arr = initArr.slice(0)
 console.log(initArr)
 
-arr = arr.sort((a,b) => {
+arr.sort((a,b) => {
     if (a[0].v > b[0].v) {
         return 1;
       }
