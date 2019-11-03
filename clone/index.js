@@ -1,3 +1,5 @@
+//https://medium.com/better-programming/3-ways-to-clone-objects-in-javascript-f752d148054d
+
 Array.prototype.clone = function() {
 	return this.slice(0);
 }
